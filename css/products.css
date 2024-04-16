@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+
+#product {
+    display: flex;
+    margin: 2%;
+    padding: 1%;
+}
+
+#product img {
+    width: 30%;
+    height: auto;
+    padding-right: 2%;
+}

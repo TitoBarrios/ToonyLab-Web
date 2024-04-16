@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../resources/fonts/Roboto/Roboto-Regular.ttf);
+}
+
 h1 {
     font-family: Roboto;
 }
@@ -38,6 +43,35 @@ ul {
 
 #navigation-bar li a:hover{
     color: peru;
+}
+
+#products-table, #team{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+#products-table, #team a {
+    color: black;
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 5px solid;
+    border-color: #ccc;
+    padding: 5%;
+}
+
+.box img {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    width: 70%;
+    min-width: 125px;
+    height: auto;
 }
 
 footer nav ul {
