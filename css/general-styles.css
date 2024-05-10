@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Bangers;
+  src: url(../resources/fonts/Bangers/Bangers-Regular.ttf)
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../resources/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+.container {
+  margin: 0 250px 0 250px;
+}
+
+.media-link img {
+  display: block;
+  max-height: 30px;
+  margin: 0 0 0 6px;
+}
+
+body {
+  background-color: black;
+  margin: 0 70px 0 70px;
+}
+
+header {
+  background-color: #222222;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  align-items: center;
+  text-align: center;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0 0 0 0;
+}
+
+header li {
+  margin: 1% 3.5% 1% 3.5%;
+}
+
+header a {
+  text-decoration: none;
+  font-family: Bangers;
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+}
+
+header a:hover {
+  color: #777777;
+}
+
+#studio-logo {
+  width: min-content;
+  align-items: center;
+}
+
+#studio-logo img {
+  max-height: 100%;
+  max-width: 30%;
+  min-width: 200px;
+  margin: 0.5em 0 0 0;
+}
+
+#main-nav {
+  margin: 0 5% 0 0;
+}
+
+#main-nav li {
+  margin: 0 2em 0 2em;
+  white-space: nowrap;
+}
+
+#main-social-media {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  padding: 0 15px 0 0;
+}
+
+footer {
+  background-color: #222222;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 20px;
+}
+
+footer a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12;
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #777777;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0 0 0 0;
+}
+
+#social-media {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+
+#social-media ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#social-media ul .media-link:last-child img {
+  margin: 0 0 0 6px;
+}

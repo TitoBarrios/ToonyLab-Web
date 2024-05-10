@@ -1,16 +1,3 @@
-@font-face {
-    font-family: Roboto;
-    src: url(../resources/fonts/Roboto/Roboto-Regular.ttf);
-}
-
-h1 {
-    font-family: Roboto;
-}
-
-ul {
-    color: peru;
-}
-
 #team {
     display: inline-block;
 }
@@ -19,30 +6,6 @@ ul {
     width: 25%;
     max-width: 25%;
     min-width: none;
-}
-
-#navigation-bar ul {
-    display: block;
-    width: auto;
-    height: auto;
-    list-style: none;
-    background-color: black;
-    text-align: center;
-}
-
-#navigation-bar li{
-    display: inline;
-}
-
-#navigation-bar li a{
-    color: white;
-    text-decoration: none;
-    border-top: 10px;
-    border-color: blue;
-}
-
-#navigation-bar li a:hover{
-    color: peru;
 }
 
 #products-table, #team{
@@ -74,26 +37,5 @@ ul {
     height: auto;
 }
 
-footer nav ul {
-    display: block;
-    display: block;
-    width: auto;
-    height: auto;
-    list-style: none;
-    background-color: lightblue;
-    text-align: left;
-}
 
-footer nav ul li {
-    display: inline;
-}
-
-footer nav ul li a {
-    color: red;
-    text-decoration: none;
-}
-
-footer nav ul li a:hover {
-    color: black;
-}
 
