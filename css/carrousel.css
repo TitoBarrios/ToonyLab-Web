@@ -1,0 +1,126 @@
+#carrousel {
+  display: flex;
+  position: relative;
+  width: auto;
+  height: 83vh;
+  overflow-x: hidden;
+}
+
+#carrousel-list {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  transition: 800ms;
+  -webkit-transition: 800ms;
+  -moz-transition: 800ms;
+  -ms-transition: 800ms;
+  -o-transition: 800ms;
+}
+
+.carrousel-item {
+  display: flex;
+  margin-right: 60px;
+  width: fit-content;
+  height: 100%;
+}
+
+.carrousel-item:last-child {
+  margin-right: 0px;
+}
+
+.carrousel-item img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carrousel-read-more {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+  justify-content: center;
+}
+
+.carrousel-read-more a {
+  font-family: Bangers;
+}
+
+#carrousel-buttons {
+  display: flex;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width: 90%;
+  justify-content: space-between;
+}
+
+#carrousel-buttons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border: none;
+  background-color: #fff5;
+  color: #fff;
+  font-weight: bold;
+}
+
+#carrousel-buttons button:hover {
+  background-color: #fff3;
+}
+
+#carrousel-buttons button:active {
+  background-color: #fff2;
+}
+
+#carrousel-buttons button span {
+  user-select: none;
+}
+
+#carrousel-dots {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  bottom: 10px;
+  color: #fff;
+  justify-content: center;
+}
+
+#carrousel-dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: 800ms;
+  -webkit-transition: 800ms;
+  -moz-transition: 800ms;
+  -ms-transition: 800ms;
+  -o-transition: 800ms;
+}
+
+#carrousel-dots .active {
+  width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  #carrousel {
+    height: 400px;
+  }
+}

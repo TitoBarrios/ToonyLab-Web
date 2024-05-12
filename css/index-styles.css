@@ -1,0 +1,98 @@
+h1 {
+    width: 100%;
+    font-family: Bangers;
+    font-size: 50px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#games-container {
+    margin-bottom: 40px;
+}
+
+#games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#games a {
+    text-decoration: none;
+    color: white;
+    width: 30%;
+    height: fit-content;
+}
+
+.box {
+    width: 100%;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box h2 {
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.box span {
+    margin-top: 15px;
+    padding-right: 20px;
+    text-align: left;
+    color: rgb(190, 190, 190);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 150;
+}
+
+#meet-us {
+    display: flex;
+    width: 100%;
+}
+
+#meet-us-body {
+    position: absolute;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+#meet-us-body h2 {
+    margin: inherit inherit 20px inherit;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#meet-us-body > span {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+#meet-us-body .button {
+    margin-top: 15px;
+}
+
+#meet-us-body .button span {
+    margin: 10px;
+    font-size: 22px;
+}
+
+#meet-us-background {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.4;
+}
+
+#meet-us-background img {
+    max-width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+}

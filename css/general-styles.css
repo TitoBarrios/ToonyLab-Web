@@ -9,7 +9,7 @@
 }
 
 .container {
-  margin: 0 250px 0 250px;
+  margin: 0 250px;
 }
 
 .media-link img {
@@ -20,6 +20,7 @@
 
 body {
   background-color: black;
+  color: white;
   margin: 0 70px 0 70px;
 }
 
@@ -90,16 +91,36 @@ footer {
   background-color: #222222;
 }
 
-footer div {
+footer > div {
   display: flex;
   flex-direction: row;
-  margin: 0 0 0 20px;
+}
+
+#complete-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+#complete-navigation div {
+  width: fit-content;
+  margin: 0 20px 0 0;
+}
+
+#complete-navigation div:last-child {
+  margin: 0;
+}
+
+#complete-navigation li {
+  margin-bottom: 5px;
 }
 
 footer a {
   font-family: Roboto;
   font-weight: 500;
   font-size: 12;
+  letter-spacing: 1px;
   text-decoration: none;
   color: white;
 }
@@ -126,4 +147,38 @@ footer ul {
 
 #social-media ul .media-link:last-child img {
   margin: 0 0 0 6px;
+}
+
+.button a {
+  display: flex;
+  width: max-content;
+  min-width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border: none;
+  background-color: rgb(80, 106, 224);
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.button a:hover {
+  background-color: rgb(55, 92, 255);
+}
+
+.button a:active {
+  background-color: rgb(87, 118, 255);
+}
+
+.button span {
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  align-content: center;
 }
