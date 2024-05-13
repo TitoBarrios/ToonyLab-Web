@@ -63,12 +63,12 @@ header a:hover {
   color: #777777;
 }
 
-#studio-logo {
+#toonylab-logo {
   width: min-content;
   align-items: center;
 }
 
-#studio-logo img {
+#toonylab-logo img {
   max-height: 100%;
   max-width: 30%;
   min-width: 200px;
@@ -259,7 +259,7 @@ footer ul {
   font-family: Roboto;
   font-size: 12px;
   width: fit-content;
-  padding: 20px 0 40px 0;
+  padding: 20px 0 28px 0;
 }
 
 #footer-bottom span {
