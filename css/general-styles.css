@@ -1,11 +1,11 @@
 @font-face {
   font-family: Bangers;
-  src: url(../resources/fonts/Bangers/Bangers-Regular.ttf)
+  src: url(../resources/fonts/Bangers/Bangers-Regular.ttf);
 }
 
 @font-face {
-    font-family: Roboto;
-    src: url(../resources/fonts/Roboto/Roboto-Regular.ttf);
+  font-family: Roboto;
+  src: url(../resources/fonts/Roboto/Roboto-Regular.ttf);
 }
 
 .container {
@@ -22,6 +22,12 @@ body {
   background-color: black;
   color: white;
   margin: 0 70px 0 70px;
+}
+
+body a {
+  font-family: Roboto;
+  color: white;
+  text-decoration: none;
 }
 
 header {
@@ -48,11 +54,9 @@ header li {
 }
 
 header a {
-  text-decoration: none;
   font-family: Bangers;
   font-size: 24px;
   font-weight: 300;
-  color: white;
 }
 
 header a:hover {
@@ -80,6 +84,91 @@ header a:hover {
   white-space: nowrap;
 }
 
+#main-nav li a {
+  white-space: nowrap;
+  letter-spacing: 1px;
+}
+
+.nav-dropdown-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-dropdown-container a {
+  margin-right: 0;
+}
+
+.nav-dropdown-container img {
+  padding-left: 4px;
+  max-width: 18px;
+  max-height: 18px;
+  margin: 0 0 0 0;
+}
+
+.nav-dropdown-container img:hover {
+  cursor: pointer;
+}
+
+.nav-dropdown-container:hover > a {
+  color: #777777;
+}
+
+.nav-dropdown-container:hover .nav-dropdown {
+  display: block;
+}
+
+.nav-dropdown:hover {
+  display: block;
+}
+
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  padding-top: 15px;
+  background-color: #222222;
+  align-items: center;
+  text-align: center;
+  width: max-content;
+  min-width: 200px;
+  transform: translateX(-15%);
+  -webkit-transform: translateX(-15%);
+  -moz-transform: translateX(-15%);
+  -ms-transform: translateX(-15%);
+  -o-transform: translateX(-15%);
+}
+
+.nav-dropdown li {
+  display: block;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 12px 2em 12px 2em !important;
+}
+
+.nav-dropdown li:last-child {
+  padding-bottom: 10px;
+}
+
+.nav-dropdown li a {
+  color: #d1d1d1;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.nav-dropdown li a:hover {
+  text-decoration: underline;
+}
+
+#about-dropdown {
+  transform: translateX(-37%);
+  -webkit-transform: translateX(-37%);
+  -moz-transform: translateX(-37%);
+  -ms-transform: translateX(-37%);
+  -o-transform: translateX(-37%);
+}
+
 #main-social-media {
   display: flex;
   width: 100%;
@@ -88,19 +177,27 @@ header a:hover {
 }
 
 footer {
+  font-family: Roboto;
+  letter-spacing: 1px;
   background-color: #222222;
 }
 
 footer > div {
   display: flex;
   flex-direction: row;
+  padding: 35px 0 0 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0 0 0 0;
 }
 
 #complete-navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: fit-content;
+  width: 100%;
 }
 
 #complete-navigation div {
@@ -113,25 +210,22 @@ footer > div {
 }
 
 #complete-navigation li {
-  margin-bottom: 5px;
+  margin: 10px 0;
 }
 
-footer a {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 12;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: white;
+#complete-navigation li:first-child span {
+  margin: 0 0 15px 0;
+  font-weight: bolder;
 }
 
-footer a:hover {
+#complete-navigation a {
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+#complete-navigation a:hover {
   color: #777777;
-}
-
-footer ul {
-  list-style: none;
-  padding: 0 0 0 0;
 }
 
 #social-media {
@@ -143,10 +237,50 @@ footer ul {
 #social-media ul {
   display: flex;
   flex-direction: row;
+  margin: 0 0 0 0;
+}
+
+#social-media ul .media-link {
+  margin: 0 10px 0 10px;
 }
 
 #social-media ul .media-link:last-child img {
   margin: 0 0 0 6px;
+}
+
+#social-media li {
+  margin: 0 0 0 10px;
+}
+
+#footer-bottom {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: Roboto;
+  font-size: 12px;
+  width: fit-content;
+  padding: 20px 0 40px 0;
+}
+
+#footer-bottom span {
+  color: rgb(184, 146, 116);
+}
+
+#footer-bottom ul {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  list-style: none;
+}
+
+#footer-bottom li {
+  color: antiquewhite;
+  white-space: nowrap;
+  margin: 0 10px 0 0;
+}
+
+#footer-bottom li a:hover {
+  text-decoration: underline;
 }
 
 .button a {
@@ -161,11 +295,9 @@ footer ul {
   -o-border-radius: 25px;
   border: none;
   background-color: rgb(80, 106, 224);
-  color: white;
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 1px;
-  text-decoration: none;
 }
 
 .button a:hover {

@@ -20,9 +20,25 @@
       <div id="main-nav">
         <nav>
           <ul>
-            <li><a href="html/navigation/catalogue.html">Our Products</a></li>
+            <li class="nav-dropdown-container">
+              <a href="#">Our Products</a>
+              <img src="resources/img/objects/dropdown-0.png" alt="↓">
+              <ul class="nav-dropdown">
+                <li><a href="html/products/ball-hook.html">BallHook</a></li>
+                <li><a href="html/products/gun-smash.html">GunSmash</a></li>
+                <li><a href="html/products/golf-it.html">GolfIt!</a></li>
+              </ul>
+            </li>
             <li><a href="html/navigation/news.html">News</a></li>
-            <li><a href="html/about/about-us.html">About</a></li>
+            <li class="nav-dropdown-container">
+              <a href="#">About</a>
+              <img src="resources/img/objects/dropdown-0.png" alt="↓">
+              <ul class="nav-dropdown" id="about-dropdown">
+                <li><a href="html/about/about-us.html">The Team</a></li>
+                <li><a href="html/about/faq.html">FAQs</a></li>
+                <li><a href="html/about/contact.html">Contact us</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </div>
@@ -47,7 +63,7 @@
         <div class="carrousel-item button">
           <img src="resources/img/banners/BallHook/main-banner.png" alt="BallHook Banner">
           <div class="carrousel-read-more">
-            <a href="html/products/hook-ball.html"><span>See more!</span></a>
+            <a href="html/products/ball-hook.html"><span>See more!</span></a>
           </div>
         </div>
         <div class="carrousel-item button">
@@ -57,7 +73,7 @@
           </div>
         </div>
         <div class="carrousel-item button">
-          <img src="resources/img/banners/GolfIt!/main-banner.png" alt="GolfIt! Banner">
+          <img src="resources/img/banners/GolfIt/main-banner.png" alt="GolfIt! Banner">
           <div class="carrousel-read-more">
             <a href="html/products/golf-it.html"><span>See more!</span></a>
           </div>
@@ -65,7 +81,7 @@
         <div class="carrousel-item button">
           <img src="resources/img/banners/Studio/studio-banner1.png" alt="Studio Banner">
           <div class="carrousel-read-more">
-            <a href="html/products/hook-ball.html"><span>Meet the team</span></a>
+            <a href="html/about/about-us.html"><span>Meet the team</span></a>
           </div>
         </div>
       </div>
@@ -85,15 +101,16 @@
     <section id="games-container" class="container">
       <h1>Our Games</h1>
       <div id="games">
-        <a href="html/products/hook-ball.html">
+        <a href="html/products/ball-hook.html">
           <div class="box">
             <img src="resources/img/logos/BallHook.png" alt="BallHook Logo">
             <h2>BallHook</h2>
-            <span>Test your skills and push the limits of your dexterity! Swing and score your ball, overcoming obstacles with each swing. Are you ready for the challenge?</span>
+            <span>Test your skills and push the limits of your dexterity! Swing and score your ball, overcoming
+              obstacles with each swing. Are you ready for the challenge?</span>
           </div>
         </a>
 
-        <a href="html/products/project-gunsmash.html">
+        <a href="html/products/gun-smash.html">
           <div class="box">
             <img src="resources/img/logos/GunSmash.png" alt="GunSmash Logo">
             <h2>GunSmash</h2>
@@ -105,7 +122,8 @@
           <div class="box">
             <img src="resources/img/logos/GolfIt.png" alt="GolfIt! Logo">
             <h2>GolfIt!</h2>
-            <span>Do you like golf?<br>Show off your skills on courses that defy imagination!<br>And above all… Wake up. </span>
+            <span>Do you like golf?<br>Show off your skills on courses that defy imagination!<br>And above all… Wake up.
+            </span>
           </div>
         </a>
       </div>
@@ -113,15 +131,15 @@
 
     <section id="meet-us">
       <div id="meet-us-background">
-        <img src="resources/img/banners/Studio/team-banner.png" alt="Team banner">
+        <img src="resources/img/banners/Studio/team-banner0.png" alt="Team banner">
         <div id="color"></div>
       </div>
       <div id="meet-us-body" class="container">
-          <h2>Inside PeOtaku</h2>
-          <span>Meet the people behind all of this games!</span>
-          <div class="button">
-            <a href="html/about/about-us.html"><span>Meet us!</span></a>
-          </div>
+        <h2>Inside PeOtaku</h2>
+        <span>Meet the people behind all of this games!</span>
+        <div class="button">
+          <a href="html/about/about-us.html"><span>Meet us!</span></a>
+        </div>
       </div>
     </section>
   </main>
@@ -132,7 +150,8 @@
         <div>
           <nav>
             <ul>
-              <li><a href="html/products/hook-ball.html">BallHook</a></li>
+              <li><span>Games</span></li>
+              <li><a href="html/products/ball-hook.html">BallHook</a></li>
               <li><a href="html/products/gun-smash.html">GunSmash</a></li>
               <li><a href="html/footer/golf-it.html">GolfIt!</a></li>
             </ul>
@@ -141,8 +160,8 @@
         <div>
           <nav>
             <ul>
-              <li><a href="html/about/about-us.html">About</a></li>
-              <li><a href="html/about/contact.html">Contact</a></li>
+              <li><span>About</span></li>
+              <li><a href="html/about/about-us.html">About us</a></li>
               <li><a href="html/about/press-kit.html">PressKit</a></li>
             </ul>
           </nav>
@@ -150,8 +169,18 @@
         <div>
           <nav>
             <ul>
-              <li><a href="html/about/faq.html">FAQ</a></li>
+              <li><span>Contact</span></li>
+              <li><a href="html/about/contact.html">Contact</a></li>
+              <li><a href="html/about/donations.html">Donations</a>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <nav>
+            <ul>
+              <li><span>Support</span></li>
               <li><a href="html/navigation/news.html">News</a></li>
+              <li><a href="html/about/faq.html">FAQ</a></li>
             </ul>
           </nav>
         </div>
@@ -174,6 +203,16 @@
                   alt="Instagram" /></a></li>
           </ul>
         </nav>
+      </div>
+    </div>
+    <div class="container" id="footer-bottom">
+      <span>2024 PeOtaku-Studio</span>
+      <div>
+        <ul>
+          <li><a href="html/about/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="html/about/terms-and-conditions.html">Terms and Conditions</a></li>
+        </ul>
+        <span id="footer-made-by">Website made by Tito Barrios & Issac Orjuela</span>
       </div>
     </div>
   </footer>

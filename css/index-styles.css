@@ -3,14 +3,14 @@ h1 {
     font-family: Bangers;
     font-size: 50px;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-align: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 60px 0 30px 0;
 }
 
 #games-container {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 #games {
@@ -20,8 +20,6 @@ h1 {
 }
 
 #games a {
-    text-decoration: none;
-    color: white;
     width: 30%;
     height: fit-content;
 }
@@ -61,7 +59,7 @@ h1 {
     position: absolute;
     font-family: Roboto;
     letter-spacing: 1px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 #meet-us-body h2 {
@@ -76,7 +74,7 @@ h1 {
 }
 
 #meet-us-body .button {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #meet-us-body .button span {

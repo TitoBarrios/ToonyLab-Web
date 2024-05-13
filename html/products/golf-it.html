@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../css/general-styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../css/general-styles.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
   <link rel="shortcut icon" href="../../resources/img/objects/NekoSharp-icon.ico" type="image/x-icon">
   <title>Golf It!</title>
 </head>
@@ -18,9 +19,25 @@
       <div id="main-nav">
         <nav>
           <ul>
-            <li><a href="../navigation/catalogue.html">Our Products</a></li>
+            <li class="nav-dropdown-container">
+              <a href="#">Our Products</a>
+              <img src="../../resources/img/objects/dropdown-0.png" alt="↓">
+              <ul class="nav-dropdown">
+                <li><a href="../products/ball-hook.html">BallHook</a></li>
+                <li><a href="../products/gun-smash.html">GunSmash</a></li>
+                <li><a href="../products/golf-it.html">GolfIt!</a></li>
+              </ul>
+            </li>
             <li><a href="../navigation/news.html">News</a></li>
-            <li><a href="../about/about-us.html">About</a></li>
+            <li class="nav-dropdown-container">
+              <a href="#">About</a>
+              <img src="../../resources/img/objects/dropdown-0.png" alt="↓">
+              <ul class="nav-dropdown" id="about-dropdown">
+                <li><a href="../about/about-us.html">The Team</a></li>
+                <li><a href="../about/faq.html">FAQs</a></li>
+                <li><a href="../about/contact.html">Contact us</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </div>
@@ -81,13 +98,15 @@
             <li><a class="media-link" href=""><img src="../../resources/img/social-media/X-logo-white.png"
                   alt="X" /></a></li>
             <li><a class="media-link" href=""><img src="../../resources/img/social-media/tiktok-logo-white.png"
-                  alt="TikTok" /></a></li>
+                  alt="TikTok" /></a>
+            </li>
             <li><a class="media-link" href=""><img src="../../resources/img/social-media/yt-logo-white.png"
                   alt="YouTube" /></a></li>
             <li><a class="media-link" href=""><img src="../../resources/img/social-media/twitch-log-white.png"
                   alt="Twitch" /></a></li>
             <li><a class="media-link" href=""><img src="../../resources/img/social-media/facebook-logo-white.png"
-                  alt="Facebook"></a></li>
+                  alt="Facebook"></a>
+            </li>
             <li><a class="media-link" href=""><img src="../../resources/img/social-media/ig-logo-white.png"
                   alt="Instagram" /></a></li>
           </ul>
