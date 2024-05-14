@@ -2,136 +2,215 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../../css/general-styles.css">
-  <link rel="stylesheet" href="../../css/responsive.css">
-  <link rel="shortcut icon" href="../../resources/img/objects/NekoSharp-icon.ico" type="image/x-icon">
-  <title>Golf It!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/general-styles.css">
+    <link rel="stylesheet" href="../../css/product.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <link rel="shortcut icon" href="../../resources/img/objects/NekoSharp-icon.ico" type="image/x-icon">
+    <title>Golf It!</title>
 </head>
 
 <body>
-  <header class="wrapper">
-    <div class="container">
-        <div id="toonylab-logo">
-            <a href="../../index.html"><img src="../../resources/img/logos/PeOtaku.png" alt="ToonyLab Logo" /></a>
+    <header class="wrapper">
+        <div class="container">
+            <div id="toonylab-logo">
+                <a href="../../index.html"><img src="../../resources/img/logos/PeOtaku.png" alt="ToonyLab Logo" /></a>
+            </div>
+            <div id="main-nav">
+                <nav>
+                    <ul>
+                        <li class="nav-dropdown-container">
+                            <a href="#">Our Products</a>
+                            <img src="../../resources/img/objects/dropdown-0.png" alt="↓">
+                            <ul class="nav-dropdown">
+                                <li><a href="../products/ball-hook.html">BallHook</a></li>
+                                <li><a href="../products/gun-smash.html">GunSmash</a></li>
+                                <li><a href="../products/golf-it.html">GolfIt!</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../navigation/news.html">News</a></li>
+                        <li class="nav-dropdown-container">
+                            <a href="#">About</a>
+                            <img src="../../resources/img/objects/dropdown-0.png" alt="↓">
+                            <ul class="nav-dropdown" id="about-dropdown">
+                                <li><a href="../about/about-us.html">The Team</a></li>
+                                <li><a href="../support/faq.html">FAQs</a></li>
+                                <li><a href="../contact/contact.html">Contact us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="main-social-media">
+                <nav>
+                    <ul>
+                        <li><a class="media-link" href="https://twitter.com/ToonyLab"><img
+                                    src="../../resources/img/social-media/X-logo-white.png" alt="X" /></a></li>
+                        <li><a class="media-link" href="https://www.youtube.com/@ToonyLab/featured"><img
+                                    src="../../resources/img/social-media/yt-logo-white.png" alt="YouTube" /></a></li>
+                        <li><a class="media-link" href="https://www.instagram.com/toonylab/"><img
+                                    src="../../resources/img/social-media/ig-logo-white.png" alt="Instagram" /></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div id="main-nav">
-            <nav>
-                <ul>
-                    <li class="nav-dropdown-container">
-                        <a href="#">Our Products</a>
-                        <img src="../../resources/img/objects/dropdown-0.png" alt="↓">
-                        <ul class="nav-dropdown">
+    </header>
+
+    <main class="wrapper">
+        <section id="main-banner">
+            <img src="../../resources/img/banners/GolfIt!/main-banner.png" alt="Golf It banner">
+            <div class="button">
+                <a href="https://www.youtube.com/@ToonyLab/featured"><span>Watch Trailer</span></a>
+            </div>
+        </section>
+        <div class="container">
+            <section id="product-intro">
+                <div><img src="../../resources/img/banners/GolfIt!/main-banner.png" alt="Golf It logo"></div>
+                <div>
+                    <h2>Golf It!</h2>
+                    <p>Do you like golf?<br>Show off your skills on courses that defy imagination!<br>And above all…
+                        Wake up</p>
+                </div>
+            </section>
+
+            <h2>News & Updates</h2>
+            <section id="updates">
+                <div>
+                    <img src="../../resources/img/banners/Team/team-banner1.png" alt="Update 1">
+                    <div><span>Golf It</span><span>14 May 24</span></div>
+                    <h3>Update 1</h3>
+                    <p>The update contains a lot of graphic styles improvements, mechanics and user life quality, we
+                        expect you enjoy it!</p>
+                </div>
+                <div>
+                    <img src="../../resources/img/banners/Team/team-banner0.png" alt="Update 1">
+                    <div><span>Golf It</span><span>14 May 24</span></div>
+                    <h3>Update 2</h3>
+                    <p>The update contains a lot of graphic styles improvements, mechanics and user life quality, we
+                        expect you enjoy it!</p>
+                </div>
+                <div>
+                    <img src="../../resources/img/banners/ToonyLab/toonylab-banner1.png" alt="Update 1">
+                    <div><span>Golf It</span><span>14 May 24</span></div>
+                    <h3>Update 3</h3>
+                    <p>The update contains a lot of graphic styles improvements, mechanics and user life quality, we
+                        expect you enjoy it!</p>
+                </div>
+            </section>
+
+            <h2>Screenshots</h2>
+            <section id="screenshots">
+                <div>
+                    <img src="../../resources/img/banners/GunSmash/main-banner.png" alt="Screenshot 1">
+                </div>
+                <div>
+                    <img src="../../resources/img/banners/ToonyLab/toonylab-banner1.png" alt="Screenshot 2">
+                </div>
+                <div class="final-screenshot">
+                    <img src="../../resources/img/banners/Team/team-banner1.png" alt="Screenshot 3">
+                    </dic>
+            </section>
+        </div>
+        <section id="how-to-play">
+            <div id="how-to-play-head">
+                <img src="../../resources/img/banners/Team/team-banner1.png" alt="How to play banner">
+                <div>
+                    <h1>How to Play</h1>
+                </div>
+            </div>
+            <div id="how-to-play-info" class="container">
+
+            </div>
+        </section>
+        <section class="container last-section" id="features">
+            <div>
+                <img src="../../resources/img/banners/GunSmash/main-banner.png" alt="Feature 1">
+                <div>
+                    <h2>Feature 1</h2>
+                    <p>Product feature</p>
+                </div>
+            </div>
+            <div class="reverse">
+                <img src="../../resources/img/banners/Team/team-banner0.png" alt="Feature 2">
+                <div>
+                    <h2>Feature 2</h2>
+                    <p>Product feature</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="wrapper">
+        <div class="container">
+            <div id="complete-navigation">
+                <div>
+                    <nav>
+                        <ul>
+                            <li><span>Games</span></li>
                             <li><a href="../products/ball-hook.html">BallHook</a></li>
                             <li><a href="../products/gun-smash.html">GunSmash</a></li>
                             <li><a href="../products/golf-it.html">GolfIt!</a></li>
                         </ul>
-                    </li>
-                    <li><a href="../navigation/news.html">News</a></li>
-                    <li class="nav-dropdown-container">
-                        <a href="#">About</a>
-                        <img src="../../resources/img/objects/dropdown-0.png" alt="↓">
-                        <ul class="nav-dropdown" id="about-dropdown">
-                            <li><a href="../about/about-us.html">The Team</a></li>
-                            <li><a href="../support/faq.html">FAQs</a></li>
-                            <li><a href="../contact/contact.html">Contact us</a></li>
+                    </nav>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><span>About</span></li>
+                            <li><a href="../about/about-us.html">About us</a></li>
+                            <li><a href="../about/press-kit.html">PressKit</a></li>
                         </ul>
-                    </li>
-                </ul>
-            </nav>
+                    </nav>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><span>Contact</span></li>
+                            <li><a href="../contact/contact.html">Contact</a></li>
+                            <li><a href="../contact/donations.html">Donations</a>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><span>Support</span></li>
+                            <li><a href="../navigation/news.html">News</a></li>
+                            <li><a href="../support/faq.html">FAQ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="social-media">
+                <nav>
+                    <ul>
+                        <li><a class="media-link" href="https://twitter.com/ToonyLab"><img
+                                    src="../../resources/img/social-media/X-logo-white.png" alt="X" /></a></li>
+                        <li><a class="media-link" href="https://www.tiktok.com/@toonylab"><img
+                                    src="../../resources/img/social-media/tiktok-logo-white.png" alt="TikTok" /></a>
+                        </li>
+                        <li><a class="media-link" href="https://www.youtube.com/@ToonyLab/featured"><img
+                                    src="../../resources/img/social-media/yt-logo-white.png" alt="YouTube" /></a></li>
+                        <li><a class="media-link" href="https://www.facebook.com/profile.php?id=61559706658461"><img
+                                    src="../../resources/img/social-media/facebook-logo-white.png" alt="Facebook"></a>
+                        </li>
+                        <li><a class="media-link" href="https://www.instagram.com/toonylab/"><img
+                                    src="../../resources/img/social-media/ig-logo-white.png" alt="Instagram" /></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div id="main-social-media">
-            <nav>
+        <div class="container" id="footer-bottom">
+            <span>2024 ToonyLab</span>
+            <div>
                 <ul>
-                    <li><a class="media-link" href="https://twitter.com/ToonyLab"><img
-                                src="../../resources/img/social-media/X-logo-white.png" alt="X" /></a></li>
-                    <li><a class="media-link" href="https://www.youtube.com/@ToonyLab/featured"><img
-                                src="../../resources/img/social-media/yt-logo-white.png" alt="YouTube" /></a></li>
-                    <li><a class="media-link" href="https://www.instagram.com/toonylab/"><img
-                                src="../../resources/img/social-media/ig-logo-white.png" alt="Instagram" /></a></li>
+                    <li><a href="../legal/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="../legal/terms-and-conditions.html">Terms and Conditions</a></li>
                 </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-
-  <main class="wrapper">
-    <div class="container">
-      <section><span>temporal</span></section>
-    </div>
-  </main>
-
-  <footer class="wrapper">
-    <div class="container">
-        <div id="complete-navigation">
-            <div>
-                <nav>
-                    <ul>
-                        <li><span>Games</span></li>
-                        <li><a href="../products/ball-hook.html">BallHook</a></li>
-                        <li><a href="../products/gun-smash.html">GunSmash</a></li>
-                        <li><a href="../products/golf-it.html">GolfIt!</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li><span>About</span></li>
-                        <li><a href="../about/about-us.html">About us</a></li>
-                        <li><a href="../about/press-kit.html">PressKit</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li><span>Contact</span></li>
-                        <li><a href="../contact/contact.html">Contact</a></li>
-                        <li><a href="../contact/donations.html">Donations</a>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li><span>Support</span></li>
-                        <li><a href="../navigation/news.html">News</a></li>
-                        <li><a href="../support/faq.html">FAQ</a></li>
-                    </ul>
-                </nav>
             </div>
         </div>
-        <div id="social-media">
-            <nav>
-                <ul>
-                    <li><a class="media-link" href="https://twitter.com/ToonyLab"><img
-                                src="../../resources/img/social-media/X-logo-white.png" alt="X" /></a></li>
-                    <li><a class="media-link" href="https://www.tiktok.com/@toonylab"><img
-                                src="../../resources/img/social-media/tiktok-logo-white.png" alt="TikTok" /></a>
-                    </li>
-                    <li><a class="media-link" href="https://www.youtube.com/@ToonyLab/featured"><img
-                                src="../../resources/img/social-media/yt-logo-white.png" alt="YouTube" /></a></li>
-                    <li><a class="media-link" href="https://www.facebook.com/profile.php?id=61559706658461"><img
-                                src="../../resources/img/social-media/facebook-logo-white.png" alt="Facebook"></a>
-                    </li>
-                    <li><a class="media-link" href="https://www.instagram.com/toonylab/"><img
-                                src="../../resources/img/social-media/ig-logo-white.png" alt="Instagram" /></a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="container" id="footer-bottom">
-        <span>2024 ToonyLab</span>
-        <div>
-            <ul>
-                <li><a href="../legal/privacy-policy.html">Privacy Policy</a></li>
-                <li><a href="../legal/terms-and-conditions.html">Terms and Conditions</a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
+    </footer>
 </body>
 
 </html>

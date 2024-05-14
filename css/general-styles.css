@@ -9,7 +9,7 @@
 }
 
 .container {
-  margin: 0 250px;
+  margin: 0 220px;
 }
 
 .media-link img {
@@ -295,8 +295,9 @@ footer ul {
   -o-border-radius: 25px;
   border: none;
   background-color: rgb(80, 106, 224);
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 2px;
   letter-spacing: 1px;
 }
 
