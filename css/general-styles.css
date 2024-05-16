@@ -12,6 +12,10 @@
   margin: 0 220px;
 }
 
+.small-container {
+  margin: 0 500px;
+}
+
 .media-link img {
   display: block;
   max-height: 30px;
@@ -24,14 +28,34 @@ body {
   margin: 0 70px 0 70px;
 }
 
-body a {
+h1, h2, h3, h4, h5, p, span, a {
   font-family: Roboto;
   color: white;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
   text-decoration: none;
 }
 
 header {
-  background-color: #222222;
+  background-color: #131212;
 }
 
 header .container {
@@ -179,7 +203,7 @@ header a:hover {
 footer {
   font-family: Roboto;
   letter-spacing: 1px;
-  background-color: #222222;
+  background-color: #131212;
 }
 
 footer > div {

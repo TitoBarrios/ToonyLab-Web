@@ -1,5 +1,4 @@
 h2 {
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 800;
     letter-spacing: 1px;
@@ -64,12 +63,6 @@ h2 {
     margin-bottom: 0.6em;
 }
 
-#who-are-we p {
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
-}
-
 #team {
     display: flex;
     flex-direction: row;
@@ -99,7 +92,6 @@ h2 {
 }
 
 #team > div > div > div h3 {
-    font-family: Roboto;
     font-size: 26px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -111,9 +103,6 @@ h2 {
 }
 
 #team p {
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
     display: block;
     width: 100%;
 }

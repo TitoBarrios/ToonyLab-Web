@@ -6,15 +6,7 @@ main .last-section {
     margin-bottom: 50px;
 }
 
-h2 {
-    font-family: Roboto;
-    font-size: 32px;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
 p {
-    font-family: Roboto;
     font-size: 22px;
     font-weight: 200;
 }
@@ -111,7 +103,6 @@ p {
 #updates > div div span {
     background-color: whitesmoke;
     color: black;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -125,7 +116,6 @@ p {
 }
 
 #updates > div h3 {
-    font-family: Roboto;
     font-size: 26px;
     color: antiquewhite;
     font-weight: 800;
@@ -192,11 +182,7 @@ p {
 }
 
 #how-to-play-head div h1 {
-    font-family: Roboto;
     color: whitesmoke;
-    font-size: 50px;
-    font-weight: 600;
-    letter-spacing: 3px;
 }
 
 #features {
