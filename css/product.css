@@ -196,7 +196,7 @@ p {
 #features > div {
     display: flex;
     flex-direction: rev;
-    margin-bottom: 10em;
+    margin-bottom: 12em;
     justify-content: space-between;
 }
 

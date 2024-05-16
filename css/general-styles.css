@@ -24,13 +24,13 @@
 
 body {
   background-color: black;
-  color: white;
+  color: #FFFFFF;
   margin: 0 70px 0 70px;
 }
 
 h1, h2, h3, h4, h5, p, span, a {
   font-family: Roboto;
-  color: white;
+  color: #FFFFFF;
 }
 
 h1 {
