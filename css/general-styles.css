@@ -28,7 +28,7 @@ body {
   margin: 0 70px 0 70px;
 }
 
-h1, h2, h3, h4, h5, p, span, a {
+h1, h2, h3, h4, h5, li, p, span, a {
   font-family: Roboto;
   color: #FFFFFF;
 }
@@ -43,6 +43,11 @@ h2 {
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 2px;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 p {
@@ -301,6 +306,8 @@ footer ul {
 
 #footer-bottom li {
   color: antiquewhite;
+  font-size: 12px;
+  font-weight: normal;
   white-space: nowrap;
   margin: 0 10px 0 0;
 }

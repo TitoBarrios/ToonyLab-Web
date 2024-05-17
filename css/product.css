@@ -175,14 +175,18 @@ p {
 }
 
 #how-to-play-head div {
-    min-width: 100%;
     position: absolute;
-    top: 10%;
-    text-align: center;
+    top: 20%;
+    text-align: left;
+    padding: 0 60% 0 15%;
 }
 
 #how-to-play-head div h1 {
     color: whitesmoke;
+}
+
+#how-to-play-head div p {
+    color: rgb(190, 190, 190);
 }
 
 #features {
