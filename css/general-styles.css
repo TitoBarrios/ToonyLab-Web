@@ -28,6 +28,10 @@ body {
   margin: 0 70px 0 70px;
 }
 
+main {
+  padding-bottom: 3em;
+}
+
 h1, h2, h3, h4, h5, li, p, span, a {
   font-family: Roboto;
   color: #FFFFFF;
@@ -208,7 +212,6 @@ header a:hover {
 }
 
 footer {
-  font-family: Roboto;
   letter-spacing: 1px;
   background-color: #131212;
 }

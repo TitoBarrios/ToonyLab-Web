@@ -209,7 +209,7 @@ p {
 }
 
 #features > div:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 #features img {

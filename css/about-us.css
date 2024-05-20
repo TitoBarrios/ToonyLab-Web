@@ -112,3 +112,17 @@ h2 {
     min-height: 120px;
     margin-right: 20px;
 }
+
+#donate-button {
+    width: fit-content;
+}
+
+#donate-button a {
+    height: 2.8rem;
+}
+
+#donate-button span {
+    font-size: 20px;
+    letter-spacing: 0px;
+    padding: 1px;
+}
