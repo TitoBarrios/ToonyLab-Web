@@ -1,10 +1,10 @@
 main {
-    background-color: rgb(39, 39, 39);
+    background-color: var(--secondary-color);
     padding: 2em 0 2em 0;
 }
 
 h1 {
-    margin: 0 0 1.2em 0;
+    margin: 0 0 1em 0;
 }
 
 #news {
@@ -24,7 +24,14 @@ h1 {
   width: 100%;
   height: 20vh;
   min-height: 300px;
-  margin: 3em 0;
+  padding: 1.5em 1.2em;
+  margin: 1.5em 0;
+  background-color: var(--tertiary-color);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
 .new:first-child {
@@ -44,11 +51,16 @@ h1 {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .tags span {
-  background-color: whitesmoke;
-  color: black;
+  background-color: var(--alternative-background-color);
+  color: var(--alternative-text-primary-color);
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
@@ -76,6 +88,6 @@ h1 {
 }
 
 .new-body p {
-    color: rgb(202, 196, 196);
+    color: var(--text-secondary-color);
     margin-right: 30%;
 }

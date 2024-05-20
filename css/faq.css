@@ -1,5 +1,5 @@
 main {
-    background-color: rgb(46, 46, 46);
+    background-color: var(--secondary-color);
     padding-top: 2em;
 }
 
@@ -16,12 +16,13 @@ h1 {
 #accordion li {
     width: 100%;
     margin-bottom: 2em;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, var(--secondary-opacity));
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+    user-select: none;
 }
 
 #accordion li label {
@@ -70,5 +71,5 @@ input[type="checkbox"] {
 }
 
 #accordion p {
-    color: rgb(190, 190, 190);
+    color: var(--text-secondary-color);
 }

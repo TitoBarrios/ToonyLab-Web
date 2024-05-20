@@ -1,3 +1,29 @@
+:root {
+  --background-color: #000000;
+  --primary-color: #131212;
+  --secondary-color: rgb(46, 46, 46);
+  --tertiary-color: #222222;
+
+  --primary-font: Bangers;
+  --secondary-font: Roboto;
+
+  --text-color: #FFFFFF;
+  --alternative-text-color: whitesmoke;
+  --text-secondary-color: rgb(190, 190, 190);
+  --text-tertiary-color: antiquewhite;
+  --text-hover-color: #777777;
+
+  --button-color: rgb(80, 106, 224);
+  --button-hover-color: rgb(55, 92, 255);
+  --button-active-color: rgb(87, 118, 255);
+
+  --alternative-background-color: whitesmoke;
+  --alternative-text-primary-color: #000000;
+
+  --primary-opacity: 0.4;
+  --secondary-opacity: 0.4;
+}
+
 @font-face {
   font-family: Bangers;
   src: url(../resources/fonts/Bangers/Bangers-Regular.ttf);
@@ -23,8 +49,8 @@
 }
 
 body {
-  background-color: black;
-  color: #FFFFFF;
+  background-color: var(--background-color);
+  color: var(--text-color);
   margin: 0 70px 0 70px;
 }
 
@@ -32,9 +58,9 @@ main {
   padding-bottom: 3em;
 }
 
-h1, h2, h3, h4, h5, li, p, span, a {
-  font-family: Roboto;
-  color: #FFFFFF;
+h1, h2, h3, h4, h5, li, label, p, span, a {
+  font-family: var(--secondary-font);
+  color: var(--text-color);
 }
 
 h1 {
@@ -64,7 +90,7 @@ a {
 }
 
 header {
-  background-color: #131212;
+  background-color: var(--primary-color);
 }
 
 header .container {
@@ -87,13 +113,13 @@ header li {
 }
 
 header a {
-  font-family: Bangers;
+  font-family: var(--primary-font);
   font-size: 24px;
   font-weight: 300;
 }
 
 header a:hover {
-  color: #777777;
+  color: var(--text-hover-color);
 }
 
 #toonylab-logo {
@@ -138,6 +164,7 @@ header a:hover {
   max-width: 18px;
   max-height: 18px;
   margin: 0 0 0 0;
+  user-select: none;
 }
 
 .nav-dropdown-container img:hover {
@@ -161,7 +188,7 @@ header a:hover {
   position: absolute;
   z-index: 999;
   padding-top: 15px;
-  background-color: #222222;
+  background-color: var(--tertiary-color);
   align-items: center;
   text-align: center;
   width: max-content;
@@ -175,7 +202,7 @@ header a:hover {
 
 .nav-dropdown li {
   display: block;
-  color: #777777;
+  color: var(--text-secondary-color);
   font-size: 14px;
   font-weight: 400;
   margin: 12px 2em 12px 2em !important;
@@ -213,7 +240,7 @@ header a:hover {
 
 footer {
   letter-spacing: 1px;
-  background-color: #131212;
+  background-color: var(--primary-color);
 }
 
 footer > div {
@@ -290,7 +317,7 @@ footer ul {
   display: flex;
   flex-direction: column;
   position: relative;
-  font-family: Roboto;
+  font-family: var(--secondary-font);
   font-size: 12px;
   width: fit-content;
   padding: 20px 0 28px 0;
@@ -308,7 +335,7 @@ footer ul {
 }
 
 #footer-bottom li {
-  color: antiquewhite;
+  color: var(--text-tertiary-color);
   font-size: 12px;
   font-weight: normal;
   white-space: nowrap;
@@ -330,7 +357,7 @@ footer ul {
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
   border: none;
-  background-color: rgb(80, 106, 224);
+  background-color: var(--button-color);
   font-size: 24px;
   font-weight: 400;
   padding: 2px;
@@ -338,11 +365,11 @@ footer ul {
 }
 
 .button a:hover {
-  background-color: rgb(55, 92, 255);
+  background-color: var(--button-hover-color);
 }
 
 .button a:active {
-  background-color: rgb(87, 118, 255);
+  background-color: var(--button-active-color);
 }
 
 .button span {

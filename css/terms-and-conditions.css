@@ -3,7 +3,7 @@ h1 {
 }
 
 #update-date {
-    color: antiquewhite;
+    color: var(--text-tertiary-color);
     font-size: 18px;
     font-weight: 500;
 }

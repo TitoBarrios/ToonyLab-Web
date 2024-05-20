@@ -28,6 +28,7 @@ p {
     object-fit: cover;
     object-position: center;
     justify-content: center;
+    user-select: none;
 }
 
 #main-banner .button {
@@ -38,8 +39,9 @@ p {
     justify-content: center;
 }
 
-#main-banner .button a {
-    font-family: Bangers;
+#main-banner .button a span {
+    font-family: var(--primary-font);
+    letter-spacing: 1px;
 }
 
 #product-intro {
@@ -101,8 +103,8 @@ p {
 }
 
 #updates > div div span {
-    background-color: whitesmoke;
-    color: black;
+    background-color: var(--alternative-background-color);
+    color: var(--alternative-text-primary-color);
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -117,7 +119,7 @@ p {
 
 #updates > div h3 {
     font-size: 26px;
-    color: antiquewhite;
+    color: var(--text-tertiary-color);
     font-weight: 800;
     letter-spacing: 1px;
     margin: 25px 0 8px 0;
@@ -168,7 +170,7 @@ p {
 
 #how-to-play-head img {
     width: 100%;
-    opacity: 0.4;
+    opacity: var(--primary-opacity);
     object-fit: cover;
     object-position: center;
     justify-content: center;
@@ -182,11 +184,11 @@ p {
 }
 
 #how-to-play-head div h1 {
-    color: whitesmoke;
+    color: var(--alternative-text-color);
 }
 
 #how-to-play-head div p {
-    color: rgb(190, 190, 190);
+    color: var(--text-secondary-color);
 }
 
 #features {

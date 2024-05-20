@@ -26,8 +26,8 @@ h2 {
 }
 
 #main-banner h1 {
-    font-family: Bangers;
-    color: whitesmoke;
+    font-family: var(--primary-font);
+    color: var(--alternative-text-color);
     font-size: 80px;
     font-weight: 400;
     letter-spacing: 4px;

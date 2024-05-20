@@ -36,6 +36,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  user-select: none;
 }
 
 .carrousel-read-more {
@@ -47,7 +48,7 @@
 }
 
 .carrousel-read-more a span {
-  font-family: Bangers;
+  font-family: var(--primary-font);
 }
 
 #carrousel-buttons {
