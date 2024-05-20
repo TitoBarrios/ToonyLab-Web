@@ -1,0 +1,128 @@
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+#main-banner {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 83vh;
+    overflow-x: hidden;
+    margin-bottom: 120px;
+}
+
+#main-banner img {
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    justify-content: center;
+}
+
+#main-banner h1 {
+    font-family: var(--primary-font);
+    color: var(--alternative-text-color);
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 2%;
+    justify-content: center;
+}
+
+#who-are-we {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+#who-are-we img {
+    width: 40%;
+    min-height: 150px;
+}
+
+#who-are-we div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#who-are-we h2 {
+    font-size: 32px;
+    margin-bottom: 0.6em;
+}
+
+#team {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: auto;
+    margin-bottom: 60px;
+}
+
+#team > div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 60px;
+}
+
+#team > div > div {
+    display: block;
+    width: 50%;
+}
+
+#team > div > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-height: 20%;
+}
+
+#team > div > div > div h3 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#team > div > div > div img {
+    max-width: 30px;
+    margin-left: 10px;
+}
+
+#team p {
+    display: block;
+    width: 100%;
+}
+
+#team div > img {
+    width: 40%;
+    min-height: 120px;
+    margin-right: 20px;
+}
+
+#donate-button {
+    width: fit-content;
+}
+
+#donate-button a {
+    height: 2.8rem;
+}
+
+#donate-button span {
+    font-size: 20px;
+    letter-spacing: 0px;
+    padding: 1px;
+}

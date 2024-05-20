@@ -1,0 +1,93 @@
+main {
+    background-color: var(--secondary-color);
+    padding: 2em 0 2em 0;
+}
+
+h1 {
+    margin: 0 0 1em 0;
+}
+
+#news {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+}
+
+.new {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  min-height: 300px;
+  padding: 1.5em 1.2em;
+  margin: 1.5em 0;
+  background-color: var(--tertiary-color);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.new:first-child {
+    margin-top: 0;
+}
+
+.new-img {
+  height: 20vh;
+  min-height: 300px;
+  max-width: 20vw;
+  justify-content: center;
+  margin-right: 2.5em;
+}
+
+.new-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.tags span {
+  background-color: var(--alternative-background-color);
+  color: var(--alternative-text-primary-color);
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+
+.new-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    align-items: start;
+}
+
+.new-body h2 {
+    font-size: 38px;
+    margin: 0 0 0.6em 0;
+}
+
+.new-body p {
+    color: var(--text-secondary-color);
+    margin-right: 30%;
+}

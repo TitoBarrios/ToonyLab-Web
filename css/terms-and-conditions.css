@@ -1,0 +1,9 @@
+h1 {
+    margin-bottom: 1rem;
+}
+
+#update-date {
+    color: var(--text-tertiary-color);
+    font-size: 18px;
+    font-weight: 500;
+}

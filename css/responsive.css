@@ -1,0 +1,36 @@
+@media (max-width: 1700px) {
+    body {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1600px) {
+    .container {
+        margin: 0 120px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin: 0 50px;
+    }
+    .small-container {
+        margin: 0 200px;
+    }
+}
+
+@media (max-width: 800px) {
+    .small-container {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 0 1em;
+    }
+
+    .small-container {
+        margin: 0 1em;
+    }
+}
