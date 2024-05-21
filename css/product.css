@@ -202,6 +202,7 @@ p {
 
 #how-to-play-head img {
     width: 100%;
+    min-height: 40vh;
     opacity: var(--primary-opacity);
     object-fit: cover;
     object-position: center;
@@ -257,4 +258,10 @@ p {
 #features > div div {
     width: 35%;
     align-items: center;
+}
+
+@media (max-width: 900px) {
+    #badges {
+        margin-bottom: 0;
+    }
 }

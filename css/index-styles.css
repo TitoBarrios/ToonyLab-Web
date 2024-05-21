@@ -92,3 +92,9 @@ h1 {
     min-height: 400px;
     object-fit: cover;
 }
+
+@media (max-width: 900px) {
+    main {
+        background-color: var(--secondary-color);
+    }
+}

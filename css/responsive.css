@@ -1,36 +1,183 @@
 @media (max-width: 1700px) {
-    body {
-        margin: 0;
-    }
+  body {
+    margin: 0;
+  }
 }
 
 @media (max-width: 1600px) {
-    .container {
-        margin: 0 120px;
-    }
+  .container {
+    margin: 0 120px;
+  }
 }
 
 @media (max-width: 1200px) {
-    .container {
-        margin: 0 50px;
-    }
-    .small-container {
-        margin: 0 200px;
-    }
+  .container {
+    margin: 0 50px;
+  }
+  .small-container {
+    margin: 0 200px;
+  }
+
+  #how-to-play-head div {
+    padding: 0 50% 0 15%;
+  }
+}
+
+@media (max-width: 900px) {
+  #main-social-media {
+    display: none;
+  }
+
+  #games {
+    flex-direction: column;
+  }
+
+  #games a {
+    width: 100%;
+    margin-bottom: 4em;
+  }
+
+  #games > a:last-child {
+    margin-bottom: 0;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--tertiary-color);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding: 2rem 0;
+    align-items: center;
+  }
+
+  .box img {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .box span {
+    text-align: center;
+    width: 80%;
+  }
+
+  #product-intro {
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+  }
+
+  #product-intro div:first-child {
+    display: none;
+  }
+
+  #product-intro div:last-child {
+    margin-top: 0.5rem;
+  }
+
+  #product-intro div:last-child h2 {
+    display: none;
+  }
+
+  #updates > div {
+    margin-right: 0;
+  }
+
+  #updates > div:first-child {
+    margin-right: 2.5em;
+  }
+
+  #updates > div:last-child {
+    display: none;
+  }
+
+  #how-to-play-head div {
+    padding: 0 40% 0 10%;
+  }
+
+  #screenshots div {
+    display: none;
+  }
+
+  #screenshots div:first-child {
+    display: flex;
+  }
+
+  #features > div {
+    flex-direction: column !important;
+    margin-bottom: 4.5em;
+    align-items: center;
+  }
+
+  #features img {
+    width: 70%;
+    min-height: 40vh;
+  }
+
+  #who-are-we {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #who-are-we img {
+    display: none;
+  }
+
+  #team {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  #team > div {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  #team > div:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 800px) {
-    .small-container {
-        margin: 0 50px;
-    }
+  .small-container {
+    margin: 0 50px;
+  }
+
+  footer > div:first-child {
+    flex-direction: column;
+  }
+
+  #social-media {
+    justify-content: center;
+  }
+
+  #social-media li {
+    margin-left: 1.5em;
+  }
+
+  #social-media li:first-child {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 600px) {
-    .container {
-        margin: 0 1em;
-    }
+  .container {
+    margin: 0 1em;
+  }
 
-    .small-container {
-        margin: 0 1em;
-    }
+  .small-container {
+    margin: 0 1em;
+  }
+
+  #how-to-play-head div {
+    padding: 0 10% 0 10%;
+  }
 }
