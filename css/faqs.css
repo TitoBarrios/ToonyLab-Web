@@ -59,11 +59,11 @@ input[type="checkbox"] {
     padding: 0 1em;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s, padding 0.2s;
-    -webkit-transition: max-height 0.3s, padding 0.2s;
-    -moz-transition: max-height 0.3s, padding 0.2s;
-    -ms-transition: max-height 0.3s, padding 0.2s;
-    -o-transition: max-height 0.3s, padding 0.2s;
+    transition: max-height 0.2s, padding 0.1s;
+    -webkit-transition: max-height 0.2s, padding 0.1s;
+    -moz-transition: max-height 0.2s, padding 0.1s;
+    -ms-transition: max-height 0.2s, padding 0.1s;
+    -o-transition: max-height 0.2s, padding 0.1s;
 }
 
 #accordion input[type="checkbox"]:checked + label + .content {
@@ -77,4 +77,15 @@ input[type="checkbox"] {
 
 #accordion p {
     color: var(--text-secondary-color);
+}
+
+@media (max-width: 768px) {
+    #accordion {
+        padding: 0;
+    }
+
+    #accordion input[type="checkbox"]:checked + label + .content {
+        max-height: fit-content;
+        padding: 10px 2em 10px 2em;
+    }
 }

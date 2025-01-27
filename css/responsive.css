@@ -135,6 +135,10 @@
     display: none;
   }
 
+  #who-are-we div {
+    width: 80%;
+  }
+
   #team {
     flex-direction: column;
     margin-bottom: 20px;

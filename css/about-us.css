@@ -71,19 +71,19 @@ h2 {
     margin-bottom: 60px;
 }
 
-#team > div {
+#team .dev-box {
     display: flex;
     flex-direction: row;
     width: 100%;
     margin-right: 60px;
 }
 
-#team > div > div {
+#team .dev-info-box {
     display: block;
     width: 50%;
 }
 
-#team > div > div > div {
+#team .dev-header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,13 +91,13 @@ h2 {
     max-height: 20%;
 }
 
-#team > div > div > div h3 {
+#team .dev-header h3 {
     font-size: 26px;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
-#team > div > div > div img {
+#team .dev-header img {
     max-width: 30px;
     margin-left: 10px;
 }
@@ -107,7 +107,7 @@ h2 {
     width: 100%;
 }
 
-#team div > img {
+#team .dev-box>img {
     width: 40%;
     min-width: 160px;
     margin-right: 20px;
@@ -125,4 +125,46 @@ h2 {
     font-size: 20px;
     letter-spacing: 0px;
     padding: 1px;
+}
+
+@media (max-width: 768px) {
+    main section {
+        margin-bottom: 60px;
+    }
+
+    #main-banner {
+        margin-bottom: 80px;
+    }
+
+    #who-are-we {
+        margin-bottom: 80px;
+    }
+
+    #team .dev-box>img {
+        max-height: 160px;
+    }
+
+    #team .dev-info-box>p {
+        margin-top: 0.8em;
+    }
+
+    #team .dev-header {
+        flex-direction: column;
+        min-height: fit-content;
+        align-items: left;
+    }
+
+    #team .dev-header h3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #team .dev-social-media {
+        width: 100%;
+        align-items: left;
+    }
+
+    #team .dev-social-media a:first-of-type img {
+        margin-left: 0;
+    }
 }
