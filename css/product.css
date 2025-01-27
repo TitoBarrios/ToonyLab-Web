@@ -171,7 +171,7 @@ p {
     max-width: 100%;
 }
 
-#screenshots div {
+#screenshots a {
     width: 100%;
     margin-right: 30px;
 }
@@ -184,7 +184,7 @@ p {
     justify-content: center;
 }
 
-#screenshots .final-screenshot {
+#screenshots :last-child {
     margin-right: 0;
 }
 
@@ -265,3 +265,9 @@ p {
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #main-banner {
+      height: 550px;
+    }
+  }

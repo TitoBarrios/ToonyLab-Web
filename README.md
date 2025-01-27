@@ -1,3 +1,4 @@
-# Studio Web Site
+# ToonyLab Website
 
-This is my new project about a website for a new indie studio
+This is a website for an indie videogames studio, made to share information about its projects and the studio itself.
+Only made with html, css and javascript.

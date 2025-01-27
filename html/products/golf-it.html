@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../css/general-styles.css">
     <link rel="stylesheet" href="../../css/product.css">
+    <link rel="stylesheet" href="../../css/lightbox.css">
     <link rel="stylesheet" href="../../css/responsive.css">
     <link rel="shortcut icon" href="../../resources/img/logos/ToonyLab/logo.ico" type="image/x-icon">
     <title>Golf It!</title>
@@ -36,7 +37,7 @@
                             <img src="../../resources/img/objects/dropdown-0.png" alt="↓">
                             <ul class="nav-dropdown" id="about-dropdown">
                                 <li><a href="../about/about-us.html">The Team</a></li>
-                                <li><a href="../support/faq.html">FAQs</a></li>
+                                <li><a href="../support/faqs.html">FAQs</a></li>
                                 <li><a href="../contact/contact.html">Contact us</a></li>
                             </ul>
                         </li>
@@ -109,15 +110,15 @@
 
             <h2>Screenshots</h2>
             <section id="screenshots">
-                <div>
-                    <img src="../../resources/img/banners/GunSmash/main-banner.png" alt="Screenshot 1">
-                </div>
-                <div>
-                    <img src="../../resources/img/banners/ToonyLab/toonylab-banner1.png" alt="Screenshot 2">
-                </div>
-                <div class="final-screenshot">
-                    <img src="../../resources/img/banners/Team/team-banner1.png" alt="Screenshot 3">
-                    </dic>
+                <a href="../../resources/img/banners/GunSmash/main-banner.png" data-lightbox="screenshots" data-title="GolfIt 1">
+                    <img src="../../resources/img/banners/GunSmash/main-banner.png" alt="GolfIt 1">
+                </a>
+                <a href="../../resources/img/banners/ToonyLab/toonylab-banner1.png" data-lightbox="screenshots" data-title="GolfIt 2">
+                    <img src="../../resources/img/banners/ToonyLab/toonylab-banner1.png" alt="GolfIt 2">
+                </a>
+                <a href="../../resources/img/banners/Team/team-banner1.png" data-lightbox="screenshots" data-title="GolfIt 3">
+                    <img src="../../resources/img/banners/Team/team-banner1.png" alt="GolfIt 3">
+                </a>
             </section>
         </div>
         <section id="how-to-play">
@@ -185,7 +186,7 @@
                         <ul>
                             <li><span>Support</span></li>
                             <li><a href="../navigation/news.html">News</a></li>
-                            <li><a href="../support/faq.html">FAQ</a></li>
+                            <li><a href="../support/faqs.html">FAQs</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -211,7 +212,7 @@
             </div>
         </div>
         <div class="container" id="footer-bottom">
-            <span>2024 ToonyLab</span>
+            <span>2025 ToonyLab</span>
             <div>
                 <ul>
                     <li><a href="../legal/privacy-policy.html">Privacy Policy</a></li>
@@ -220,6 +221,19 @@
             </div>
         </div>
     </footer>
+    <script src="../../js/lightbox-plus-jquery.js"></script>
+    <script>
+    let maxWidth = screen.width - (screen.width >= 1920 ? 200 : 50);
+    lightbox.option({
+      'disableScrolling': true,
+      'resizeDuration': 350,
+      'fadeDuration': 250,
+      'maxWidth': maxWidth,
+      'positionFromTop': screen.height/6,
+      'showImageNumberLabel': false,
+      'wrapAround': true
+    })
+    </script>
 </body>
 
 </html>
