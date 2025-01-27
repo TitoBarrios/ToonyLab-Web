@@ -105,6 +105,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow: hidden;
     width: 100%;
     height: fit-content;
 }
@@ -245,6 +246,7 @@ p {
 
 #features > div:last-child {
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 #features img {
@@ -260,14 +262,8 @@ p {
     align-items: center;
 }
 
-@media (max-width: 900px) {
-    #badges {
-        margin-bottom: 0;
+@media (max-width: 768px) {
+    main section {
+        margin-bottom: 60px;
     }
 }
-
-@media screen and (max-width: 768px) {
-    #main-banner {
-      height: 550px;
-    }
-  }

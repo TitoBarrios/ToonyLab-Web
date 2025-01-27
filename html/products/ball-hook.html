@@ -226,6 +226,7 @@
     <script src="../../js/lightbox-plus-jquery.js"></script>
     <script>
     let maxWidth = screen.width - (screen.width >= 1920 ? 200 : 50);
+    let positionFromTop = screen.height >= 1920 ? screen.height / 6 : screen.height;
     lightbox.option({
       'disableScrolling': true,
       'resizeDuration': 350,
