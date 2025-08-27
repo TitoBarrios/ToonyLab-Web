@@ -66,7 +66,7 @@ h1 {
     font-weight: bold;
 }
 
-#meet-us-body > span {
+#meet-us-body>span {
     font-size: 24px;
     font-weight: 100;
 }
@@ -97,4 +97,18 @@ h1 {
     main {
         background-color: var(--secondary-color);
     }
+
+    #games {
+        flex-direction: column;
+    }
+
+    #games a {
+        width: 100%;
+        margin-bottom: 4em;
+    }
+
+    #games>a:last-child {
+        margin-bottom: 0;
+    }
+
 }

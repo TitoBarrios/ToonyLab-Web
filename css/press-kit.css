@@ -41,7 +41,7 @@ h2 {
     height: fit-content;
 }
 
-#info > div {
+#info>div {
     width: 45%;
     height: fit-content;
 }
@@ -58,4 +58,27 @@ h2 {
     width: 20%;
     margin: 0;
     padding: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    #main-banner {
+        height: 550px;
+    }
+
+    #info {
+        flex-direction: column;
+    }
+
+
+    #info>div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
 }

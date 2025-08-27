@@ -66,12 +66,12 @@ input[type="checkbox"] {
     -o-transition: max-height 0.2s, padding 0.1s;
 }
 
-#accordion input[type="checkbox"]:checked + label + .content {
+#accordion input[type="checkbox"]:checked+label+.content {
     max-height: fit-content;
     padding: 10px 8em 10px 2em;
 }
 
-#accordion input[type="checkbox"]:checked + label::before {
+#accordion input[type="checkbox"]:checked+label::before {
     content: "-";
 }
 
@@ -84,7 +84,7 @@ input[type="checkbox"] {
         padding: 0;
     }
 
-    #accordion input[type="checkbox"]:checked + label + .content {
+    #accordion input[type="checkbox"]:checked+label+.content {
         max-height: fit-content;
         padding: 10px 2em 10px 2em;
     }

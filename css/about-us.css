@@ -127,12 +127,45 @@ h2 {
     padding: 1px;
 }
 
+
+@media (max-width: 900px) {
+    #team {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #team>div {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    #team>div:last-child {
+        margin-bottom: 0;
+    }
+
+    #who-are-we {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #who-are-we img {
+        display: none;
+    }
+
+    #who-are-we div {
+        width: 80%;
+    }
+
+}
+
 @media (max-width: 768px) {
     main section {
         margin-bottom: 60px;
     }
 
     #main-banner {
+        height: 50vh;
         margin-bottom: 80px;
     }
 
@@ -167,4 +200,13 @@ h2 {
     #team .dev-social-media a:first-of-type img {
         margin-left: 0;
     }
+    
+    @media (max-width: 600px) {
+
+        #main-banner {
+            height: 45vh;
+            margin-bottom: 80px;
+        }
+    }
+
 }

@@ -110,7 +110,7 @@ p {
     height: fit-content;
 }
 
-#updates > div {
+#updates>div {
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -118,11 +118,11 @@ p {
     margin-right: 2.5em;
 }
 
-#updates > div:last-child {
+#updates>div:last-child {
     margin-right: 0;
 }
 
-#updates > div img {
+#updates>div img {
     min-width: 200px;
     width: 100%;
     min-height: 200px;
@@ -131,11 +131,11 @@ p {
     justify-content: center;
 }
 
-#updates > div div {
+#updates>div div {
     margin-top: 12px;
 }
 
-#updates > div div span {
+#updates>div div span {
     background-color: var(--alternative-background-color);
     color: var(--alternative-text-primary-color);
     font-size: 16px;
@@ -150,7 +150,7 @@ p {
     -o-border-radius: 9px;
 }
 
-#updates > div h3 {
+#updates>div h3 {
     font-size: 26px;
     color: var(--text-tertiary-color);
     font-weight: 800;
@@ -158,7 +158,7 @@ p {
     margin: 25px 0 8px 0;
 }
 
-#updates > div p {
+#updates>div p {
     font-size: 17px;
     font-weight: 200;
     margin: 4px 0 0 0;
@@ -233,7 +233,7 @@ p {
     position: relative;
 }
 
-#features > div {
+#features>div {
     display: flex;
     flex-direction: rev;
     margin-bottom: 12em;
@@ -244,7 +244,7 @@ p {
     flex-direction: row-reverse;
 }
 
-#features > div:last-child {
+#features>div:last-child {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -257,13 +257,121 @@ p {
     justify-content: center;
 }
 
-#features > div div {
+#features>div div {
     width: 35%;
     align-items: center;
+}
+
+@media (max-width: 1600px) {
+    #how-to-play-head div {
+        padding: 0 50% 0 15%;
+    }
+}
+
+@media (max-width: 900px) {
+    #how-to-play-head div {
+        padding: 0 40% 0 10%;
+    }
+
+    #updates>div {
+        margin-right: 0;
+    }
+
+    #updates>div:first-child {
+        margin-right: 2.5em;
+    }
+
+    #updates>div:last-child {
+        display: none;
+    }
+
+    #screenshots div {
+        display: none;
+    }
+
+    #screenshots div:first-child {
+        display: flex;
+    }
+
+    #product-intro {
+        flex-direction: column;
+        margin-bottom: 2.5rem;
+    }
+
+    #product-intro div:first-child {
+        display: none;
+    }
+
+    #product-intro div:last-child {
+        margin-top: 0.5rem;
+    }
+
+    #product-intro div:last-child h2 {
+        display: none;
+    }
+
+    #badges {
+        margin-bottom: 0;
+    }
+
+    #features>div {
+        flex-direction: column !important;
+        margin-bottom: 4.5em;
+        align-items: center;
+    }
+
+    #features img {
+        width: 70%;
+        min-height: 40vh;
+    }
+
+}
+
+@media (max-width: 800px) {
+    #screenshots a {
+        display: none;
+        margin-right: 0px;
+    }
+
+    #screenshots a:first-of-type {
+        display: flex;
+    }
+
+    #features>div div {
+        width: auto;
+    }
+
+    #features img {
+        width: 90%;
+    }
+
+    #main-banner {
+        height: 550px;
+    }
+
 }
 
 @media (max-width: 768px) {
     main section {
         margin-bottom: 60px;
     }
+}
+
+@media (max-width: 600px) {
+    #how-to-play-head div {
+        padding: 0 10% 0 10%;
+    }
+
+    #updates>div {
+        min-width: 300px;
+    }
+
+    #updates>div:first-child {
+        margin-right: 1.5em;
+    }
+
+    #features>div {
+        margin-bottom: 2.5em;
+    }
+
 }

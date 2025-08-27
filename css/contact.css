@@ -39,3 +39,22 @@ h1 {
 #contact-email a:hover {
     text-decoration: underline;
 }
+
+
+@media (max-width: 1200px) {
+    .small-container {
+        margin: 0 200px;
+    }
+}
+
+@media (max-width: 800px) {
+    .small-container {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .small-container {
+        margin: 0 1em;
+    }
+}
